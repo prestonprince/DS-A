@@ -8,18 +8,23 @@ class Node {
     }
 };
 
-const a = new Node('A');
-const b = new Node('B');
-const c = new Node('C');
-const d = new Node('D');
+// const a = new Node('A');
+// const b = new Node('B');
+// const c = new Node('C');
+// const d = new Node('D');
 
-a.next = b;
-b.next = c;
-c.next = d;
+// a.next = b;
+// b.next = c;
+// c.next = d;
 
-const linkedListValues = (head) => {
-    if (head === null) return []
-    return [head.val].concat(linkedListValues(head.next))
-};
+// const linkedListValues = (head) => {
+//     if (head === null) return []
+//     return [head.val].concat(linkedListValues(head.next))
+// };
 
-console.log(linkedListValues(a)); // -> [ 'a', 'b', 'c', 'd' ]
+// console.log(linkedListValues(a)); // -> [ 'a', 'b', 'c', 'd' ]
+
+
+module.exports = {
+    Node
+}
