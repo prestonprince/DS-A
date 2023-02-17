@@ -27,7 +27,7 @@ c.right = f
 # d   e     f
 
 
-# iterative
+#! iterative
 def depth_first_values(root):
   if not root: return []
   stack = [root]
@@ -44,7 +44,7 @@ def depth_first_values(root):
   return res
 
 
-# recursive
+#! recursive
 # def depth_first_values(root):
 #   if not root:
 #     return []
