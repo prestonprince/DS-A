@@ -1,3 +1,7 @@
-strings = ['longest', 'long', 'longer']
+from datetime import datetime
 
-print(sorted(strings, key=lambda x: (-len(x), x)))
+def convert_date(date):
+    print(isinstance(str(date.date()), str))
+
+
+convert_date(datetime.now())
